@@ -1,68 +1,89 @@
-# 🧮 **Scientific Calculator**  
-A powerful and intuitive **Java-based Scientific Calculator** with a sleek GUI interface to handle all your complex calculations effortlessly. Perfect for students, engineers, and anyone needing advanced math functions.
+# 🚀 BYTEUPRISE_JP_01 - **Scientific Calculator**
 
----
+Welcome to the **Scientific Calculator**! A powerful, user-friendly Java application for performing both basic and scientific calculations. Whether you're solving simple math problems or diving into advanced functions like trigonometry and logarithms, this calculator has you covered!
 
-## 📦 **Project Structure**  
-The project is neatly organized into packages for logic and UI:
+## 🔥 Features
 
-```bash
-ScientificCalculator/
+- **Basic Operations**: Addition, subtraction, multiplication, division
+- **Scientific Operations**: Trigonometric, logarithmic, and exponential functions
+- **User-Friendly GUI**: Simple interface for easy interaction
+- **Fast and Efficient**: Lightweight and responsive for smooth calculations
+
+## 📦 Project Structure
+
+Here's how the project is structured:
+
+```plaintext
+BYTEUPRISE_JP_01/
 ├── src/
 │   └── com/
 │       └── calculator/
-│           ├── logic/
+│           ├── logic/                 # Contains the core logic of the calculator
 │           │   └── CalculatorLogic.java
-│           └── ui/
+│           └── ui/                    # Contains the user interface (GUI)
 │               └── ScientificCalculatorUI.java
-🚀 How to Compile and Run
-Ready to calculate? Follow the steps below to get your Scientific Calculator running in no time.
+├── LICENSE                          # License information for this project
+├── README.md                        # Project instructions and documentation
+└── ...
+🚀 How to Get Started
+Follow these steps to run your Scientific Calculator on your system:
 
-1️⃣ Open Terminal / PowerShell
-Make sure you're in the right directory!
-
-bash
-Copy
-Edit
-cd c:\Users\HP\Desktop\Scientific_c\ScientificCalculator\src
-2️⃣ Compile the Code
-Only compile if you’ve made changes to the Java files. This step is necessary to make the program ready for execution.
+1. Clone the Repository (Optional)
+If you haven't already, clone the repository to your local machine:
 
 bash
 Copy
 Edit
-javac com\calculator\**\*.java
-3️⃣ Run the Program
-Launch the calculator using the command below:
+git clone https://github.com/Intellectual-Tarange/BYTEUPRISE_JP_01.git
+2. Navigate to the Project Directory
+Open Terminal or PowerShell, and navigate to the root directory of your project:
 
 bash
 Copy
 Edit
-java com.calculator.ui.ScientificCalculatorUI
-🛠 Additional Notes
-Compilation (javac) is required only if you've made changes to the .java files.
-
-Skip compilation if you didn’t change any code — just run it directly with:
+cd C:\Users\HP\Desktop\task_02\BYTEUPRISE_JP_01
+3. Compile the Java Files
+Now, compile all the necessary .java files. This will create .class files inside the bin directory:
 
 bash
 Copy
 Edit
-java com.calculator.ui.ScientificCalculatorUI
-⚡ Optional: Make It Super Easy with a Batch File
-Want to save time? Create a batch file (run_calculator.bat) to compile and run everything with a single click. Here’s how:
+javac src\com\calculator\logic\*.java src\com\calculator\ui\*.java -d bin
+4. Run the Calculator
+After compiling, you can start the Scientific Calculator with this command:
 
-Create a new file named run_calculator.bat in your project folder.
+bash
+Copy
+Edit
+java -cp bin com.calculator.ui.ScientificCalculatorUI
+That's it! You're now ready to perform some awesome calculations. 💡
 
-Add the following code to the batch file:
+🛠️ Notes
+Recompiling: If you make any changes to the code, don't forget to recompile using the javac command.
+
+Running: Once compiled, simply run it with the java command. You can skip recompiling if no changes are made.
+
+⚡ Optional: Automate the Process with a Batch File (Windows Only)
+Want to make things easier? Create a batch file that compiles and runs the program with just one click! 🎯
+
+Create a file called run_calculator.bat in your project folder.
+
+Add the following content:
 
 batch
 Copy
 Edit
 @echo off
-cd c:\Users\HP\Desktop\Scientific_c\ScientificCalculator\src
-javac com\calculator\**\*.java
-java com.calculator.ui.ScientificCalculatorUI
+cd C:\Users\HP\Desktop\task_02\BYTEUPRISE_JP_01
+javac src\com\calculator\logic\*.java src\com\calculator\ui\*.java -d bin
+java -cp bin com.calculator.ui.ScientificCalculatorUI
 pause
-Now, you can simply double-click run_calculator.bat to compile and run your calculator automatically! ⚡
+Now, you can double-click the run_calculator.bat file to launch the calculator instantly! 🎉
 
+📄 License
+This project is licensed under the MIT License. You can freely use, modify, and distribute it as long as you retain the license. See the LICENSE file for more details.
 
+🤝 Contact
+Author: Parth Tarange
+
+GitHub Profile: Intellectual-Tarange
