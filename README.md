@@ -65,7 +65,4 @@ java com.calculator.ui.ScientificCalculatorUI
 pause
 Now, you can simply double-click run_calculator.bat to compile and run your calculator automatically! ⚡
 
-📄 License
-This project is not free to use.
-© 2025 Parth Tarange. All rights reserved.
-For more details, check out LICENSE.txt.
+
